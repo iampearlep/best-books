@@ -1,0 +1,72 @@
+#wrapper {
+  border: 1px solid grey;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+  border-radius: 5px;
+}
+
+#page-banner {
+  background-color: lightgrey;
+  padding: 10px 0;
+}
+#page-banner h1,
+#page-banner p {
+  width: 100%;
+  margin: 10px 0;
+  text-align: center;
+}
+#page-banner input {
+  width: 60%;
+  margin: 20px auto;
+  border: 1px solid black;
+  padding: 8px;
+  display: block;
+  border-radius: 4px;
+  font-size: 15px;
+}
+#book-list ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+#book-list li {
+  padding: 20px;
+  border-left: 5px solid lightgrey;
+  margin: 20px 25px;
+}
+#book-list li:hover {
+  border-color: lightpink;
+}
+.title {
+  font-family: Arial, Helvetica, sans-serif;
+  padding-left: 20px;
+}
+.name {
+  width: 60%;
+  display: inline-block;
+}
+.delete {
+  background-color: lightpink;
+  float: right;
+  padding: 6px;
+  border-radius: 4px;
+  border: 1px solid grey;
+  cursor: pointer;
+}
+#Add-book {
+  width: 100%;
+  padding: 10px;
+  text-align: center;
+  padding-bottom: 20px;
+}
+#Add-book input {
+  width: 40%;
+  padding: 8px;
+}
+button {
+  background-color: lightpink;
+  padding: 8px;
+  cursor: pointer;
+}
